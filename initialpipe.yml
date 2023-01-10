@@ -1,5 +1,24 @@
 trigger:
   - dev
 
-vmImage:
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  #solution: '**/.sln'
+  #project: '**/.csproj'
+
+steps:
+  - task: NuGetToolInstaller@1
+    name: 'NuGetInstaller'
+    displayName: 'NuGet Tool Installation'
+  
+  - task: NuGetCommand@2
+    inputs:
+      command: 'restore'
+      restoreSolution: '$(solution)'
+      feedsTouse: 'select'
+    displayName: 'Restore command used'
   
