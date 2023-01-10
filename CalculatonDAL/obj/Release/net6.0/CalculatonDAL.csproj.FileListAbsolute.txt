@@ -1,0 +1,14 @@
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.csproj.AssemblyReference.cache
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.AssemblyInfoInputs.cache
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.AssemblyInfo.cs
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.csproj.CoreCompileInputs.cache
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\bin\Release\net6.0\CalculatonDAL.deps.json
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\bin\Release\net6.0\CalculatonDAL.runtimeconfig.json
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\bin\Release\net6.0\CalculatonDAL.dll
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\bin\Release\net6.0\CalculatonDAL.pdb
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.dll
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\refint\CalculatonDAL.dll
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.pdb
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\CalculatonDAL.genruntimeconfig.cache
+C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\CalculatonDAL\obj\Release\net6.0\ref\CalculatonDAL.dll
