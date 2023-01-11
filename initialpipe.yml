@@ -37,7 +37,7 @@ steps:
     displayName: 'publish'
     inputs:
       command: 'publish'
-      #publishWebprojects: 'false'
+      publishWebprojects: 'false'
       projects: '$(project)'
       arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
       #zipAfterPublish: 'true'
