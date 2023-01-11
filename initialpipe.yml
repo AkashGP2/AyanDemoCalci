@@ -7,8 +7,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  #solution: '**/.sln'
-  #project: '**/.csproj'
+  solution: '**/.sln'
+  project: '**/.csproj'
 
 steps:
   - task: NuGetToolInstaller@1
@@ -16,9 +16,32 @@ steps:
     displayName: 'NuGet Tool Installation'
   
   - task: NuGetCommand@2
+    name: 'NuGetInstaller'
+    displayName: 'NuGet Tool Installation'
     inputs:
       command: 'restore'
       restoreSolution: '$(solution)'
       feedsTouse: 'select'
-    displayName: 'Restore command used'
+    
   
+  - task: DotNetCoreCLI@2
+    name: 'NuGetInstaller'
+    displayName: 'NuGet Tool Installation'
+    inputs: 
+      command: 'test'
+      project: '$(solution)'
+      arguments: '--configuration $(BuildConfiguration)'
+    
+  - task: DotNetCoreCLI@2
+    name:
+    displayName: 
+    inputs:
+      command: 'publish'
+      publishWebprojects: 'false'
+      projects: '$(project)'
+      arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+      zipAfterPublish: 'false'
+      
+
+
+
