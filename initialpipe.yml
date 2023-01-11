@@ -16,8 +16,8 @@ steps:
     displayName: 'NuGet Tool Installation'
   
   - task: NuGetCommand@2
-    name: 'NuGetInstaller'
-    displayName: 'NuGet Tool Installation'
+    name: 'NuGetRestore'
+    displayName: 'NuGet Restore Packages'
     inputs:
       command: 'restore'
       restoreSolution: '$(solution)'
@@ -25,16 +25,16 @@ steps:
     
   
   - task: DotNetCoreCLI@2
-    name: 'NuGetInstaller'
-    displayName: 'NuGet Tool Installation'
+    name: 'NuGetTest'
+    displayName: 'Testing the App'
     inputs: 
       command: 'test'
       project: '$(solution)'
       arguments: '--configuration $(BuildConfiguration)'
     
   - task: DotNetCoreCLI@2
-    name:
-    displayName: 
+    name: 'publish'
+    displayName: 'publish'
     inputs:
       command: 'publish'
       publishWebprojects: 'false'
@@ -42,6 +42,13 @@ steps:
       arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
       zipAfterPublish: 'false'
       
+  - task: PublishBuildArtifacts@1
+    name: 'publishBuildArtifact'
+    displayName: 'publish the build artifacts to pipeline'
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'CalciC#Build'
+      publishLocation: 'Container'
 
 
 
