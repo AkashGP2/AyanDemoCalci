@@ -11,6 +11,11 @@ variables:
   project: '**/.csproj'
 
 steps:
+  - task: UseDotNet@2
+    displayName: 'Installing .Net6'
+    inputs:
+      version: '6.x'
+
   - task: NuGetToolInstaller@1
     name: 'NuGetInstaller'
     displayName: 'NuGet Tool Installation'
