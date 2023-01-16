@@ -11,7 +11,7 @@ stages:
   - stage: Build
     jobs:
     -  job:
-       -  steps:
+       steps:
           -  task: UseDotNet@2
              displayName: Install .Net6
              inputs:
