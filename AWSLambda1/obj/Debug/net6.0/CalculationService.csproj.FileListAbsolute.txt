@@ -34,3 +34,39 @@ C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\AWSLambda1\
 C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\AWSLambda1\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\AWSLambda1\bin\Debug\net6.0\CalculatonDAL.dll
 C:\Users\aymitra\Documents\Project Documents\WoodDuck\PoC\AWSLambda1\AWSLambda1\bin\Debug\net6.0\CalculatonDAL.pdb
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculationService.deps.json
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculationService.runtimeconfig.json
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculationService.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculationService.pdb
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Amazon.Lambda.Core.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\AWSSDK.DynamoDBv2.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Npgsql.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculatonDAL.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\bin\Debug\net6.0\CalculatonDAL.pdb
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.csproj.AssemblyReference.cache
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.AssemblyInfoInputs.cache
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.AssemblyInfo.cs
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.csproj.CoreCompileInputs.cache
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.csproj.CopyComplete
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\refint\CalculationService.dll
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.pdb
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\CalculationService.genruntimeconfig.cache
+C:\Users\vakash\OneDrive - Deloitte (O365D)\Documents\Wood Duck 2.0 End 2 End Files\AyanDemoCalci\AWSLambda1\obj\Debug\net6.0\ref\CalculationService.dll

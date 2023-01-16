@@ -1,0 +1,40 @@
+name: CS Build and Deploy Lambda $(Date:yyyyMMdd) -$(Rev:r)
+
+trigger:
+  -  dev  
+  -  test
+
+pool:
+  vmImage: windows-latest
+
+stages:
+  - stage: Build
+    jobs:
+    -  job:
+       -  steps:
+          task: UseDotNet@2
+          displayName: Install .Net6
+          inputs:
+            version: '6.x'
+#Trying to build all .csproj files
+       -  task: DotNetCoreCLI@2
+          displayName: Build App
+          inputs:
+            command: build
+            #projects: '**/*.csproj'
+       -  task: DotNetCoreCLI@2
+          displayName: Unit Test
+          inputs:
+            command: test 
+            projects: '**/*Test*.csproj'
+#While publish, zip is set true by default
+       -  task: DotNetCoreCLI@2
+          displayName: Publish and zip
+          inputs:
+            command: publish
+            projects: '**/*.csproj'
+            publishWebProjects: false
+            arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+            zipAfterPublish: true
+        
+         
