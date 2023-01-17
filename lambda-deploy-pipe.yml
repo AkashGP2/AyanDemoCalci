@@ -27,6 +27,11 @@ stages:
              inputs:
               command: test 
               projects: '**/*Test*.csproj'
+#Running restore before publish
+          -  task: DotNetCoreCLI@2
+             displayName: Restore .Net
+             inputs:
+               command: restore            
 #While publish, zip is set true by default
           -  task: DotNetCoreCLI@2
              displayName: Publish and zip
