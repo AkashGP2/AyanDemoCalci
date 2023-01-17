@@ -33,7 +33,7 @@ stages:
              inputs:
               command: test 
               projects: '**/*Test*.csproj' 
-          -  script: '$(Build.ArtifactStagingDirectory)/ CalculationService.csproj --dotnet publish -c Release --no-build -r "win10-x64" -p:PublishReadyToRun=true --self-contained'       
+          -  script: '$(Build.ArtifactStagingDirectory)/ CalculationService.csproj --dotnet publish -c Release --no-build -r "win10-x64" -p:PublishReadyToRun=true'       
 #While publish, zip is set true by default
           -  task: DotNetCoreCLI@2
              displayName: Publish and zip
