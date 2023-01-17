@@ -32,13 +32,16 @@ stages:
              displayName: Unit Test
              inputs:
               command: test 
-              projects: '**/*Test*.csproj'        
+              projects: '**/*Test*.csproj' 
+          -  script: '$(Build.ArtifactStagingDirectory)/ CalculationService.csproj --dotnet publish -c Release --no-build -r "win10-x64" -p:PublishReadyToRun=true --self-contained'       
 #While publish, zip is set true by default
           -  task: DotNetCoreCLI@2
              displayName: Publish and zip
              inputs:
               command: publish
-              projects: '**/*.csproj'
+              projects: 
+              -  '**/CalculationTest.csproj'
+              -  '**/CalculationDAL.csproj'
               publishWebProjects: false
               #arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
               arguments: ' -c Release -o "$(Build.ArtifactStagingDirectory)"'
