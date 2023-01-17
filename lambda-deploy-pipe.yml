@@ -39,9 +39,7 @@ stages:
              displayName: Publish and zip
              inputs:
               command: publish
-              projects: 
-              -  '**/CalculationTest.csproj'
-              -  '**/CalculationDAL.csproj'
+              projects: ['**/CalculationTest.csproj','**/CalculationDAL.csproj' ]
               publishWebProjects: false
               #arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
               arguments: ' -c Release -o "$(Build.ArtifactStagingDirectory)"'
