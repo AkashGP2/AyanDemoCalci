@@ -40,7 +40,13 @@ stages:
               command: publish
               projects: '**/*.csproj'
               publishWebProjects: false
-              arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+              #arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+              arguments: ' -c Release -o "$(Build.ArtifactStagingDirectory)"'
               zipAfterPublish: true
-        
-         
+#Push artifacts to pipeline
+          - task: PublishBuildArtifacts@1
+            displayName: 'push to pipeline'
+            inputs:
+              PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+              ArtifactName: 'Calci-Zip'
+              publishLocation: 'Container'
