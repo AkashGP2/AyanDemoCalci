@@ -5,7 +5,7 @@ trigger:
   -  test
 
 pool:
-  vmImage: windows-latest
+  vmImage: ubuntu-latest
 
 stages:
   - stage: Build
@@ -34,8 +34,8 @@ stages:
                command: restore  
                projects: '**/*.csproj'          
 #While publish, zip is set true by default
-          -  script: 'dotnet -p:PublishReadyToRun=false'
-          
+          -  script: echo Hello
+
           -  task: DotNetCoreCLI@2
              displayName: Publish and zip
              inputs:
